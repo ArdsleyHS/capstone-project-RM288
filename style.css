@@ -3,12 +3,42 @@ body{
     font-size:18px;
 }
 
-h1{
-    color:#003333;
+p {
+    font-size:15px;
 }
-h2{
-    color:#162955;
+
+.jumbotron {
+    background-color: rgb(186, 54, 54);
+    font-size:30px;
 }
-img{
-    height:200px;
+
+.img-circle {
+    height:600px;
+    width:600px;
+    margin:20px;
+}
+
+h3 {
+    background-color:lightgray;
+}
+
+#selected {
+    background:lightblue;
+}
+
+#recurring {
+    background:pink;
+}
+
+table {
+    background:white;
+}
+
+button {
+    background:lightgreen;
+}
+
+#donation {
+    text-align:center;
+    font-size:60px;
 }
