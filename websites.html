@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<title>Charity for Polar Bears</title>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+	    <nav class="navbar navbar-inverse navbar-fixed-to-top">
+	        <div class="container">
+	            <ul class="nav nav-tabs">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mailing.html">Donations</a></li>
+                    <li class="active"><a href="websites.html">Websites</a></li>
+                </ul>
+	        </div>
+	    </nav>
+	    <div class="container">
+	        <div class="jumbotron">
+	            Other Polar Bear Charities to Consider
+	        </div>
+	        <script>
+	        function myFunction() {
+	            document.getElementById("demo").innerHTML = "94.62";}
+	        </script>
+	        
+	        <script>
+	        function myFunction1() {
+	            document.getElementById("demo1").innerHTML = "80.32";}
+	        </script>
+	        
+	        <script>
+	        function myFunction2() {
+	            document.getElementById("demo2").innerHTML = "85.58";}
+	        </script>
+	    <table class="table table-bordered table-hover">
+	        <tr>
+	            <th>Charity Name</th>
+	            <th>Location</th>
+	            <th>Link</th>
+	            <th>Rating</th>
+	            <th>Reveal</th>
+	        </tr>
+	        <tr>
+	            <td>Polar Bears International</td>
+	            <td>Located in Montana</td>
+	            <td><a href="https://polarbearsinternational.org/polar-bears/habitat/">Website Link</a></td>
+	            <td id="demo">Hidden (it is good to research charity yourself before relying on arbitrary score)</td>
+	            <td><button type="button" onclick="myFunction()">Click to reveal rating</button></td>
+	        </tr>
+	        <tr>
+	            <td>World Wildlife Fund</td>
+	            <td>Located in Switzerland</td>
+	            <td><a href="https://www.worldwildlife.org/">Website Link</a></td>
+	            <td id="demo1">Hidden (it is good to research charity yourself before relying on arbitrary score)</td>
+	            <td><button type="button" onclick="myFunction1()">Click to reveal rating</button></td>
+	        </tr>
+	        <tr>
+	            <td>National Wildlife Federation</td>
+	            <td>Located in Virginia</td>
+	            <td><a href="https://www.nwf.org/">Website Link</a></td>
+	            <td id="demo2">Hidden (it is good to research charity yourself before relying on arbitrary score)</td>
+	            <td><button type="button" onclick="myFunction2()">Click to reveal rating</button></td>
+	        </tr>
+	    </table>
+	    </div>
+    </body>
+</html>
