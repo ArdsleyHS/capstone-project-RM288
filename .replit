@@ -1,8 +1,4 @@
-#!/bin/bash
 
-# sysinfo_page - A script to produce an HTML file
-
-cat << _EOF_
 <html>
 <head>
     <title>
@@ -11,7 +7,9 @@ cat << _EOF_
 </head>
 
 <body>
+    <h1>
     Your page content goes here.
+    </h1>
 </body>
 </html>
-_EOF_
+
