@@ -1,0 +1,13 @@
+cat << 'EOF' > pkll.htm
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>HTML E-mail</title>
+  </head>
+  <body>
+    <p style="font-family:verdana;color:red;">
+      This text is in Verdana and red
+    </p>
+  </body>
+</html>
+EOF
